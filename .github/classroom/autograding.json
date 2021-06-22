@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Style guide",
+      "setup": "sudo -H pip3 install -U pip setuptools && sudo -H pip3 install \"black~=21.6b0\"",
+      "run": "black --check .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
